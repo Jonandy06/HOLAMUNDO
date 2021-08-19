@@ -8,4 +8,4 @@ document.write('HELLO WORLD')
 
 // a = 3
 // b = 5
-document.write('el resultado es ' + (3 + 5));
+document.write('<br>el resultado es ' + (3 + 5));
