@@ -36,7 +36,7 @@
 
 // if (numero1 > numero2 && numero1 > numero3) {
 //     document.write("<br>La numero es mayor " + numero1);
-    
+
 // }if (numero2 > numero1 && numero2 > numero3) {
 //     document.write("<br>La numero es mayor " + numero2);
 // }
@@ -47,14 +47,34 @@
 //Ejercicio 8
 // let numero1 = parseInt(prompt('Ingrese un primer numero'));
 
-
 // if (numero1 % 2 === 0) {
 //     document.write("Es numero par ");
 // }
 
 //Ejercicio 9
 
-let frase = prompt('Ingrese una frase ');
+let frase = prompt("Ingrese una frase");
+// hola mundo
+console.log(frase.toLocaleLowerCase());
+frase = frase.toLocaleLowerCase();
+console.log(frase.length);
 
-let letras = frase.substr(0);
-document.write(letras);
+/* tomar un caracter variable.charAt(indice)
+preguntar si es vocal
+si es vocal lo muestro sino no hago nada 
+*/
+
+for (let vocal = 0; vocal < frase.length; vocal++) {
+  console.log(frase.charAt(vocal));
+  if (
+    frase.charAt(vocal) == "a" ||
+    frase.charAt(vocal) == "e" ||
+    frase.charAt(vocal) == "i" ||
+    frase.charAt(vocal) == "o" ||
+    frase.charAt(vocal) == "u"
+  ) {
+    document.write(frase.charAt(vocal));
+  }
+}
+// let letras = frase.substr(0);
+// document.write(letras);
