@@ -53,28 +53,65 @@
 
 //Ejercicio 9
 
-let frase = prompt("Ingrese una frase");
-// hola mundo
-console.log(frase.toLocaleLowerCase());
-frase = frase.toLocaleLowerCase();
-console.log(frase.length);
+// let frase = prompt("Ingrese una frase");
+// // hola mundo
+// console.log(frase.toLocaleLowerCase());
+// frase = frase.toLocaleLowerCase();
+// console.log(frase.length);
 
 /* tomar un caracter variable.charAt(indice)
 preguntar si es vocal
 si es vocal lo muestro sino no hago nada 
 */
 
-for (let vocal = 0; vocal < frase.length; vocal++) {
-  console.log(frase.charAt(vocal));
-  if (
-    frase.charAt(vocal) == "a" ||
-    frase.charAt(vocal) == "e" ||
-    frase.charAt(vocal) == "i" ||
-    frase.charAt(vocal) == "o" ||
-    frase.charAt(vocal) == "u"
-  ) {
-    document.write(frase.charAt(vocal));
-  }
+// for (let vocal = 0; vocal < frase.length; vocal++) {
+//   console.log(frase.charAt(vocal));
+//   if (
+//     frase.charAt(vocal) == "a" ||
+//     frase.charAt(vocal) == "e" ||
+//     frase.charAt(vocal) == "i" ||
+//     frase.charAt(vocal) == "o" ||
+//     frase.charAt(vocal) == "u"
+//   ) {
+//     document.write(frase.charAt(vocal));
+//   }
+// }
+
+//Ejercicio 10
+// let numero = prompt('Ingrese el numero')
+
+// if (numero % 2 ===0 || numero % 3 ===0 || numero % 5 ===0 || numero % 7 ===0 ) {
+//     document.write('El numero es divisible');
+// }
+
+//Ejercicio 11
+// let numero = parseInt(prompt('Ingrese el numero'))
+
+// if (numero % 2 ===0) {
+//     document.write('El numero es divisible por 2 <br>');
+// }if (numero % 3 ===0) {
+//     document.write('El numero es divisible por 3 <br>');
+// }if (numero % 5 ===0) {
+//     document.write('El numero es divisible por 5 <br>');
+// }if (numero % 7 ===0) {
+//     document.write('El numero es divisible por 7 <br>');
+// }
+let numero1 = parseInt(prompt('Ingrese el numero'))
+
+switch (numero1) {
+    case numero1 % 2 ===0:
+        console.log('El numero es divisible por 2 <br>');
+       
+    case numero1 % 3 ===0:
+        console.log('El numero es divisible por 3 <br>');
+       
+    case numero1 % 5 ===0:
+        console.log('El numero es divisible por 5 <br>');
+        
+    case numero1 % 7 ===0:
+        console.log('El numero es divisible por 7 <br>');
+        
+    default: 
+        console.log('El numero no es divisible<br>');
+        
 }
-// let letras = frase.substr(0);
-// document.write(letras);

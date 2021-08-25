@@ -47,6 +47,27 @@ for(crear la variable; condicion; incremento o decremento el valor de la variabl
 }
  */
 
-for(let i=1; i<= 100; i++){
-    document.write('Elemento '+ i +'<br>');
+// for(let i=1; i<= 100; i++){
+//     document.write('Elemento '+ i +'<br>');
+// }
+
+//Ejercicio 1
+// let edad = parseInt(prompt('Ingrese su edad'))
+
+// if (edad >= 18) {
+//     document.write('Ya puede manejar');
+// }else{
+// document.write('Edad no valida');
+// }
+
+//Ejercicio 2
+let nota = parseInt(prompt('Ingrese un numero de 0 a 10'))
+
+switch (nota) {
+    case nota ==2:
+    document.write('Muy deficiente');
+        break;
+
+    default:
+        break;
 }
