@@ -16,12 +16,12 @@ while(condicion){
 } 
 */
 
-let contador = 1000;
-while(contador <=100){
-    document.write('Elemento '+ contador +'<br>');
-   // contador++
-   contador = contador +1;    
-}
+// let contador = 1000;
+// while(contador <=100){
+//     document.write('Elemento '+ contador +'<br>');
+//    // contador++
+//    contador = contador +1;    
+// }
 
 
 // do-while hacer ... mientras (se cumple la condicion)
@@ -61,13 +61,45 @@ for(crear la variable; condicion; incremento o decremento el valor de la variabl
 // }
 
 //Ejercicio 2
-let nota = parseInt(prompt('Ingrese un numero de 0 a 10'))
+// let nota = parseInt(prompt('Ingrese un numero de 0 a 10'));
 
-switch (nota) {
-    case nota ==2:
-    document.write('Muy deficiente');
-        break;
+// if (typeof nota !== 'number') {
+//     alert('Numero no valido');
+// }
+// if (nota >10) {
+//     alert('Numero erroneo'); 
+// }
+// if (nota <=2) {
+//     alert('Muy deficiente');
+// }
+// if (nota >=3 && nota <=4) {
+//     alert('Insuficiente');
+// }
+// if (nota >=5 && nota <=6) {
+//     alert('Suficiente');
+// }
+// if (nota ==7) {
+//     alert('Bien');
+// }
+// if (nota >=8 && nota <=9) {
+//     alert('Muy bien');
+// }
+// if (nota ==10) {
+//     alert('Excelente');
+// }
 
-    default:
-        break;
+//Ejercicio 3
+
+
+
+for (let escr = confirm('Quieres escribir?'); confirm === false;) {
+    let frase = prompt('Escriba su frase');
+    frase = frase + '- ';
+    document.write(frase)
 }
+
+// confirm('Quieres escribir?');
+// if (confirm === true) {
+//    let frase = prompt('Escriba su frase')
+// }
+
