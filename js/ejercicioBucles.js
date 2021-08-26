@@ -101,15 +101,7 @@ do{
 }while(confirm('¿Desea continuar?'));
 document.write(resultado)
 
-// console.log(confirm('¿Desea continuar?'))
-
-
-
-// for (let escr = confirm('Quieres escribir?'); confirm === false;) {
-//     let frase = prompt('Escriba su frase');
-//     frase = frase + '- ';
-//     document.write(frase)
-// }
+//Ejercicio 10
 
 
 
