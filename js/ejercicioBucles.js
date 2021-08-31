@@ -91,17 +91,24 @@ for(crear la variable; condicion; incremento o decremento el valor de la variabl
 //Ejercicio 3
 
 
-let resultado='';
+// let resultado='';
+// do{
+//     let palabra = prompt('Ingrese una palabra');
+//     resultado= resultado+palabra+'-'
+//     console.log(resultado);
+
+// //while(true) o while(false)
+// }while(confirm('¿Desea continuar?'));
+// document.write(resultado)
+
+//Ejercicio 4
+
+let resultado =''
 do{
-    let palabra = prompt('Ingrese una palabra');
-    resultado= resultado+palabra+'-'
-    console.log(resultado);
-
-//while(true) o while(false)
-}while(confirm('¿Desea continuar?'));
+    let numero = alert('No es un numero');
+    resultado = resultado+numero+'-'
+    console.log(resultado)
+}while(parseInt(prompt('Ingrese un numero')));
 document.write(resultado)
-
-//Ejercicio 10
-
 
 
