@@ -103,7 +103,7 @@ for(crear la variable; condicion; incremento o decremento el valor de la variabl
 
 //Ejercicio 4
 
-let resultado =''
+let resultado = 0;
 do{
     let numero = alert('No es un numero');
     resultado = resultado+numero+'-'
